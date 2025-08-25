@@ -8,7 +8,6 @@ A sleek, modern, and fully responsive task management application built with Rea
 [![Responsive](https://img.shields.io/badge/Design-Responsive-ff69b4.svg)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 
 
-![Beautiful Task Manager](https://via.placeholder.com/800x400.png?text=Add+Your+App+Screenshot+Here)
 
 
 
@@ -18,6 +17,7 @@ Experience the app live: **[Your Live Demo Link Here]**
 
 ## 📸 Preview
 
+![Beautiful Task Manager](https://via.placeholder.com/800x400.png?text=Add+Your+App+Screenshot+Here)
 
 
 
