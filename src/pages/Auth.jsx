@@ -37,13 +37,7 @@ function Auth() {
         // Signup logic
         const { data: authData, error: authError } = await supabase.auth.signUp({
           email,
-          password,
-          options: {
-            data: {
-              full_name: name,
-              isApproved: false   // default
-            }
-          }
+          password
         });
         if (authError) throw authError;
 
