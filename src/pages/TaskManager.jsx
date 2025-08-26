@@ -4,6 +4,7 @@ import TaskList from '../components/TaskList';
 import '../styles/main.css';
 import { supabase } from '../supabaseClient';
 import dotenv from "dotenv"
+import TaskLogo from '../components/TaskLogo';
 
 function tasks({session}) {
   const [tasks, setTasks] = useState([]);
@@ -82,6 +83,9 @@ function tasks({session}) {
 
   return (
     <>
+    <div className='logo'>
+        <TaskLogo />
+      </div>
       <div className='app-header'>
         <div className="header-content">
           <h1 className="app-title">Beautiful Task Manager</h1>

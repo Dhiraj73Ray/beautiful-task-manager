@@ -21,6 +21,15 @@ body {
   background-color: #f5f5f5;
 }
 
+.logo img{
+  position: absolute;
+  width: 20%;
+  /* border: 1px solid black; */
+  height: 25%;
+  top: -2rem;
+  left: 0rem;
+}
+
 .app-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -53,6 +62,7 @@ body {
 }
 
 @media (max-width: 768px) {
+
   .app-grid {
     grid-template-columns: 1fr;
   }
@@ -111,6 +121,8 @@ body {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+
+  
   .header-content {
     padding: 0 1rem;
   }
@@ -395,6 +407,8 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+
   .app-container {
     padding: 1rem;
   }
@@ -411,6 +425,8 @@ body {
 
 /* Medium screens (smaller than desktop) */
 @media (max-width: 1024px) {
+
+
 .app-container {
 padding: 1.5rem;
 }
@@ -448,6 +464,15 @@ height: 300px;
 
 /* Small screens (smaller than medium) */
 @media (max-width: 768px) {
+
+   .logo img{
+  position: absolute;
+  width: 20%;
+  /* border: 1px solid black; */
+  height: 20%;
+  top: -1rem;
+  left: 0rem;
+}
 .app-container {
 padding: 1rem;
 }
@@ -544,6 +569,11 @@ width: 100%;
 
 /* Mobile screens */
 @media (max-width: 480px) {
+
+     .logo img{
+  display: none;
+}
+
 .app-container {
 padding: 0.75rem;
 }
@@ -655,6 +685,10 @@ font-size: 0.95rem;
 
 /* Very small mobile devices */
 @media (max-width: 360px) {
+    .logo img{
+  display: none;
+}
+
 .app-title {
 font-size: 1.3rem;
 }

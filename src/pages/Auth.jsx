@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { supabase } from '../supabaseClient';
 import { useNavigate } from 'react-router-dom';
 import '../styles/main.css'
+import TaskLogo from '../components/TaskLogo';
 
 function Auth() {
   const [isLogin, setIsLogin] = useState(true);
@@ -60,6 +61,9 @@ function Auth() {
 
   return (
     <div className='auth-container'>
+      <div className='logo'>
+        <TaskLogo />
+      </div>
       <div className="auth-form">
         <h2>{isLogin ? 'Login' : 'Sign Up'}</h2>
         {error && <div className="auth-error">{error}</div>}
