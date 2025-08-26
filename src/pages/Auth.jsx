@@ -41,7 +41,7 @@ function Auth() {
           options: {
             data: {
               full_name: name,
-              isApproved: true   // default
+              isApproved: false   // default
             }
           }
         });
