@@ -13,11 +13,16 @@ A sleek, modern, and fully responsive task management application built with Rea
 
 ## 🌟 Live Demo
 
-Experience the app live: **[Your Live Demo Link Here]**
+Experience the app live: **[https://btaskmanager.netlify.app/](https://btaskmanager.netlify.app/)**
 
 ## 📸 Preview
 
-![Beautiful Task Manager](https://via.placeholder.com/800x400.png?text=Add+Your+App+Screenshot+Here)
+![Beautiful Task Manager](https://github.com/user-attachments/assets/354c398f-1b21-428e-b2de-e7bc12569adb)
+
+### Demo GIF
+https://github.com/user-attachments/assets/bcfc516b-9c89-4d14-b046-56eb04fb2395
+
+![App Demo](https://github.com/user-attachments/assets/998294af-bbbd-40db-8a1c-3c56726fbcdb)
 
 
 
@@ -109,15 +114,6 @@ Enjoy your project and Share 🔗
 
 ### 🌐 Responsive Design
 #### The application is fully responsive with breakpoints:
-
-### Desktop View
-![Desktop View](https://via.placeholder.com/600x300.png?text=Desktop+Screenshot)
-
-### Mobile View
-![Mobile View](https://via.placeholder.com/300x500.png?text=Mobile+Screenshot)
-
-### Demo GIF
-![App Demo](https://via.placeholder.com/600x300.png?text=Add+Your+GIF+Demonstration+Here)
 
 ## 🤝 Contributing
 - Contributions are welcome! Please feel free to submit a Pull Request.
